@@ -1,0 +1,30 @@
+{
+  "name": "json_table",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "run-p watch:js serve",
+    "serve": "webpack serve",
+    "start": "webpack",
+    "watch:js": "webpack --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.7.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.0"
+  },
+  "volta": {
+    "node": "16.16.0",
+    "npm": "8.11.0"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./js/main.js"></script>
+  <title>json_table</title>
+  <style>
+    .wrap{
+      display: grid;
+      grid-template-columns: 25% 25% 25% 25%;
+      row-gap: .5em;
+      column-gap: .5em;
+    }
+    .item{
+      width: 100%;
+      margin: 0;
+    }
+    .item[data-room="0"]{
+      grid-column-start: 1;
+      grid-column-end: 5;
+      background: rgb(226, 245, 223);
+    }
+    .item[data-room="1"]{
+      grid-column-start: 1;
+      background: rgb(245, 223, 223);
+    }
+    .item[data-room="2"]{
+      grid-column-start: 2;
+      background: rgb(206, 237, 239);
+    }
+    .item[data-room="3"]{
+      grid-column-start: 3;
+      background: rgb(236, 206, 239);
+    }
+    .item[data-room="4"]{
+      grid-column-start: 4;
+      background: rgb(239, 214, 206);
+    }
+  </style>
+</head>
+<body>
+  <section id="js-targetTimeTable">
+  </section>
+</body>
+</html>
